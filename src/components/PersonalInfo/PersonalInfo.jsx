@@ -4,10 +4,7 @@ import './PersonalInfo.css'
 const PersonalInfo = () => {
     return (
         <div className='personal-info'>
-            <div>
-                <h1>Personal info</h1>
-                <p>please provide your name, email address, and phone number</p>
-            </div>
+
 
             <form >
 
@@ -32,7 +29,7 @@ const PersonalInfo = () => {
 
 
 
-                <input type="submit" value={"Next"} />
+              
             </form>
 
 
