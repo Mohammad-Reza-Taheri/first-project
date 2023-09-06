@@ -1,0 +1,27 @@
+.finishing-up-container {
+    background-color: aliceblue;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 50px;
+}
+
+.list-container {
+    background-color: #ccc;
+    border-radius: 5px;
+    width: 70%;
+    padding: 20px 30px;
+
+}
+
+.text-list-container{
+    border-bottom: 1px solid gray;
+    padding-bottom:20px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price{
+    padding: 20px 0;
+}

@@ -8,7 +8,7 @@ const SelectPlan = () => {
 
 
       <div className="option-container">
-    <Plan logo={''} name={"Arcade"} price={9} time={false}/>
+    <Plan logo={'../assets/images/icon-arcade'} name={"Arcade"} price={9} time={false}/>
     <Plan logo={''} name={"Advanced"} price={9} time={false}/>
     <Plan logo={''} name={"Pro"} price={9} time={false}/>
 
