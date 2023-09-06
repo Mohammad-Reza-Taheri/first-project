@@ -1,0 +1,23 @@
+.main-container{
+    width: 900px;
+    height: 500px;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    
+}
+
+.left-side{
+    width:30%;
+    height: 100%;
+    background-color: red;
+    border-radius: 12px;
+    
+}
+
+.right-side{
+    width: 70%;
+    height: 100%;
+    background-color: yellow;
+}
