@@ -1,21 +1,20 @@
 import React from 'react'
 import './PersonalInfo.css'
+import Form from './Form'
 
 const PersonalInfo = () => {
     return (
         <div className='personal-info'>
-            <div>
-                <h1>Personal info</h1>
-                <p>please provide your name, email address, and phone number</p>
-            </div>
 
-            <form >
+
+            {/* <form >
 
 
                 <div>
                     <label htmlFor="name">Name</label>
                     <input type="text" placeholder='e.g stephen king' name='name' />
-                </div>
+                </div> 
+                
 
                 <div>
 
@@ -32,10 +31,12 @@ const PersonalInfo = () => {
 
 
 
-                <input type="submit" value={"Next"} />
-            </form>
+              
+            </form> */}
 
+            {/* <Form/> */}
 
+           
 
 
         </div>

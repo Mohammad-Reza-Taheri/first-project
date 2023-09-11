@@ -1,0 +1,69 @@
+.roadmap-container{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  
+
+    padding-left:20px ;
+    margin-top:20px ;
+}
+
+
+
+
+.step-number{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgba(240, 248, 255, 0.87); */
+    border-radius:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.6px solid white;
+    color: white;
+
+    margin: 15px 10px 15px 0px;
+    
+}
+
+.step-number-active{
+    width: 30px;
+    height: 30px;
+    /* background-color: rgba(240, 248, 255, 0.87); */
+    border-radius:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1.6px solid rgba(255, 255, 255, 0.500); */
+    color: #032859;
+    background-color: rgba(255, 255, 255, 0.800);
+
+    margin: 15px 10px 15px 0px;
+}
+
+
+.step-container{
+display: flex;
+text-transform: uppercase;
+
+
+margin:0px 10px ;
+}
+
+.step-container>div>p{
+   
+    color: white;
+    font-weight: 100;
+}
+.step-container>div>h4{
+    color: white;
+}
+
+.text-container{
+    font-size: 12px;
+   
+    margin-top: 10px;
+}
+
+
