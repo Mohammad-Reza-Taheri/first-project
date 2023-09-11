@@ -1,5 +1,5 @@
 .plan-container{
-    border: 1px solid blue;
+    border: 1px solid #004297;
     border-radius: 10px;
     width: 30%;
     height: 90%;
@@ -9,17 +9,18 @@
 }
 
 .plan-logo{
-    padding: 5px;
+    padding:10px 10px;
     /* padding:5px 50% 30% 5px ; */
 }
 
 .plan-info{
-    padding: 5px;
+    padding:10px 10px;
   
 }
 
 .plan-name{
-    color: #2002ff;
+    font-weight: 600;
+    color: #032859;
 }
 
 

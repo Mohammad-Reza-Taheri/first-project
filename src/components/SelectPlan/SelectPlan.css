@@ -1,5 +1,5 @@
 .select-plan{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 80%;
     display: flex;
     justify-content: start;
@@ -13,16 +13,17 @@
 .option-container{
     width: 80%;
     height: 60%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-items: start;
 }
 
 .time-switch{
     width: 80%;
     height: 20%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: flex;
     justify-content: center;
     

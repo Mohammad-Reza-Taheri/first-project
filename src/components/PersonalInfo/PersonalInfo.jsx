@@ -1,18 +1,20 @@
 import React from 'react'
 import './PersonalInfo.css'
+import Form from './Form'
 
 const PersonalInfo = () => {
     return (
         <div className='personal-info'>
 
 
-            <form >
+            {/* <form >
 
 
                 <div>
                     <label htmlFor="name">Name</label>
                     <input type="text" placeholder='e.g stephen king' name='name' />
-                </div>
+                </div> 
+                
 
                 <div>
 
@@ -30,9 +32,11 @@ const PersonalInfo = () => {
 
 
               
-            </form>
+            </form> */}
 
+            {/* <Form/> */}
 
+           
 
 
         </div>

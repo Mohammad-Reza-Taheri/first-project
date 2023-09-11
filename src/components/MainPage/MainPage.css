@@ -1,7 +1,7 @@
 .main-container{
     width: 900px;
     height: 500px;
-    background-color: aqua;
+    background-color:#ffffff;
     padding: 15px;
     border-radius: 12px;
     display: flex;
@@ -11,15 +11,20 @@
 .left-side{
     width:30%;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     border-radius: 12px;
+    background-image:url(../../images/bg-sidebar-desktop.svg) ;
+    background-position:0px -70px;
+    background-size: cover;
+
+    
     
 }
 
 .right-side{
     width: 70%;
     height: 100%;
-    background-color: yellow;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,4 +39,22 @@
     position: absolute;
     right: 90px;
     bottom: 10px;
+    background-color: #032859;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
+
+.back{
+    width: 120px;
+    height:40px;
+    position: absolute;
+    left: 90px;
+    bottom: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
